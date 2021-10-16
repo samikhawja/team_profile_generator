@@ -7,9 +7,30 @@ const inquirer = require('inquirer');
 const questions = [
     {
         type: "input",
-        message: "How old are you?",
-        name: "age",
-    }
+        message: "What is your name?",
+        name: "name",
+    },
+    {
+        type: "list",
+        message: "What position do you hold?",
+        name: "position",
+        choices: ["Manager", "Engineer", "Intern"]
+    },
+    {
+        type: "input",
+        message: "What is your ID?",
+        name: "id",
+    },
+    {
+        type: "input",
+        message: "What is your email?",
+        name: "email",
+    },
+    {
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "github",
+    },
 ]
 
 function writeToFile(filename, data) {
