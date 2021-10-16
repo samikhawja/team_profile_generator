@@ -10,7 +10,7 @@ function generateMarkdown(data) {
         </head>
 
         <body>
-           <h1></h1>
+           <h1>${data.age}</h1>
         </body>
     </html>
     `;

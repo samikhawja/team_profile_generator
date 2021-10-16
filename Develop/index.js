@@ -5,7 +5,11 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const inquirer = require('inquirer');
 
 const questions = [
-    
+    {
+        type: "input",
+        message: "How old are you?",
+        name: "age",
+    }
 ]
 
 function writeToFile(filename, data) {
