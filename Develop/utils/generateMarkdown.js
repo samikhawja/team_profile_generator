@@ -20,9 +20,9 @@ function generateMarkdown(data) {
                 </div>
                 <div class="card-body" id="main">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item" id="id">${data.id}</li>
-                        <li class="list-group-item" id="email">${data.email}</li>
-                        <li class="list-group-item" id="github">${data.github}</li>
+                        <li class="list-group-item" id="id">ID: ${data.id}</li>
+                        <li class="list-group-item" id="email">Email: <a href= "mailto: ${data.email}">${data.email}</a></li>
+                        <li class="list-group-item" id="github">GitHub: <a href= "https://github.com/${data.github}" target="_blank">${data.github}</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,9 +33,9 @@ function generateMarkdown(data) {
                 </div>
                 <div class="card-body" id="main">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item" id="id">${data.id}</li>
-                        <li class="list-group-item" id="email">${data.email}</li>
-                        <li class="list-group-item" id="github">${data.github}</li>
+                        <li class="list-group-item" id="id">ID: ${data.id}</li>
+                        <li class="list-group-item" id="email">Email: <a href= "mailto: ${data.email}">${data.email}</a></li>
+                        <li class="list-group-item" id="github">GitHub: <a href= "https://github.com/${data.github}" target="_blank">${data.github}</a></li>
                     </ul>
                 </div>
             </div>
