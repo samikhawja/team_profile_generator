@@ -1,0 +1,37 @@
+header {
+    background-color: #93ACB5;
+    text-align: center;
+    font-size: 64px;
+    font-weight: lighter;
+    height: 150px;
+    line-height: 150px;
+}
+
+#container {
+    text-align: center;
+    opacity: 75%;
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    width: 23%;
+}
+
+#container:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    transform: scale(1.05);
+    opacity: 100%;
+    
+}
+
+#top{
+    background-color: #96C5F7;
+}
+
+#main {
+    background-color: #F2F4FF;
+}
+
+#name {
+    font-size: 32px;
+    font-weight: bold;
+}

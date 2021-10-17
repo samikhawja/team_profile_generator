@@ -7,6 +7,11 @@ const inquirer = require('inquirer');
 const questions = [
     {
         type: "input",
+        message: "What is your company/team name?",
+        name: "company",
+    },
+    {
+        type: "input",
         message: "What is your name?",
         name: "name",
     },
