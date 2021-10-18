@@ -48,6 +48,7 @@ function init() {
     .then((response) => {
         console.log(response)
         writeToFile("index.html", generateHTML(response));
+        
     });
 }
 
