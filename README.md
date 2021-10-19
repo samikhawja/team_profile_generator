@@ -27,7 +27,7 @@
 
 ![Terminal Prompt GIF](https://media.giphy.com/media/uUh514IlnzSCDfbQyy/giphy.gif)
 
-For this application, I had to finsh the provided files to create a README generator. The user will be prompted questions in their terminal and from there, a README markdown will be generated. Per usual, this tested my knowledge with node.js and made me do a bunch of research to deliver the best application to the user. Of course, this was a fun to make and look to implementing an html to the application!
+For this application, I had to create a team profile generator. The user will be prompted questions in their terminal and from there, a index.html file will be generated. Per usual, this tested my knowledge with node.js and made me do a bunch of research to deliver the best application to the user. Of course, this was a fun to make and look to implementing an html to the application!
 
 The websites I used to help create the application are listed below in the <a href="#acknowledgements">acknowledgements</a>.
 
@@ -51,7 +51,7 @@ then, the following
 ```
 node index.js
 ```
-After that, go through the prompts and once the last question is completed, a README will generate in the Develop folder called, "README.md"
+After that, go through the prompts and once you are finshed, hit done and an "index.html" will generate!
 
 
 <!-- USAGE EXAMPLES -->
@@ -59,14 +59,14 @@ After that, go through the prompts and once the last question is completed, a RE
 
 <img src="./assets/images/webpage.png" alt="Terminal with propmts">
 
-Below is the function I used to generate a readme markdown file. The code snippets starts with the prompt from inquirer and the response from that will console.log the report and then create a markdown called "README.md". The next part is the 'generateMarkdown' where it is a template literal for creating the template for the README.
+Below is the function I used to generate an html file. The code snippets starts with the prompt from inquirer and the response from that will console.log the report and then create a file called "index.html". The next part is the 'generateHTML' where it is a template literal for creating the template for the HTML.
 ```
 function init() {
     inquirer
     .prompt(questions)
     .then((response) => {
         console.log(response)
-        writeToFile("README.md", generateMarkdown(response));
+        writeToFile("README.md", generateHTML(response));
     });
 }
 ```
@@ -85,7 +85,7 @@ Sami Khawja: Skhawja11@gmail.com
 
 
 ## Project Links
-Project Link: [GitHub](https://github.com/samikhawja/readme_generator)
+Project Link: [GitHub](https://github.com/samikhawja/team_profile_generator)
 
 
 
