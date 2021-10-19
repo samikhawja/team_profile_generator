@@ -25,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Terminal Prompt GIF](https://media.giphy.com/media/uUh514IlnzSCDfbQyy/giphy.gif)
+<img src="./assets/images/webpage.png" alt="Screenshot of webpage">
 
 For this application, I had to create a team profile generator. The user will be prompted questions in their terminal and from there, a index.html file will be generated. Per usual, this tested my knowledge with node.js and made me do a bunch of research to deliver the best application to the user. Of course, this was a fun to make and look to implementing an html to the application!
 
@@ -56,8 +56,6 @@ After that, go through the prompts and once you are finshed, hit done and an "in
 
 <!-- USAGE EXAMPLES -->
 ## Code Snippets
-
-<img src="./assets/images/webpage.png" alt="Terminal with propmts">
 
 Below is the function I used to generate an html file. The code snippets starts with the prompt from inquirer and the response from that will console.log the report and then create a file called "index.html". The next part is the 'generateHTML' where it is a template literal for creating the template for the HTML.
 ```
